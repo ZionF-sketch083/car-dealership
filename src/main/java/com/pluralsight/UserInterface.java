@@ -26,20 +26,63 @@ public class UserInterface {
             int userInput = command.nextInt();
 
             switch (userInput){
-                case 1 ->
-                case 2 ->
-                case 3 ->
-                case 4 ->
-                case 5 ->
-                case 6 ->
-                case 7 ->
-                case 8 ->
-                case 9 ->
+                case 1 -> processGetByPriceRequest(command);
+                case 2 -> processGetByMakeModelRequest(command);
+                case 3 -> processGetByYearRequest(command);
+                case 4 -> processGetByColorRequest(command);
+                case 5 -> processGetByMileageRequest(command);
+                case 6 -> processGetByVehicleTypeRequest(command);
+                case 7 -> processGetAllVehiclesRequest(command);
+                case 8 -> processAddVehicleRequest(command);
+                case 9 -> processRemoveVehicleRequest(command);
                 case 99 -> go = false;
-                default -> System.out.println("");
+                default -> System.out.println("Invalid.");
             }
         }
         command.close();
+    }
+
+    public static void processGetByPriceRequest(Scanner command){
+
+    }
+
+    public static void processGetByMakeModelRequest(Scanner command){
+
+    }
+
+
+    public static void processGetByYearRequest(Scanner command){
+
+    }
+
+
+    public static void processGetByColorRequest(Scanner command){
+
+    }
+
+
+    public static void processGetByMileageRequest(Scanner command){
+
+    }
+
+
+    public static void processGetByVehicleTypeRequest(Scanner command){
+
+    }
+
+
+    public static void processGetAllVehiclesRequest(Scanner command){
+
+    }
+
+
+    public static void processAddVehicleRequest(Scanner command){
+
+    }
+
+
+    public static void processRemoveVehicleRequest(Scanner command){
+
     }
 
 }

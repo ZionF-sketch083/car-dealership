@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.awt.*;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class Dealership {
@@ -41,7 +42,9 @@ public class Dealership {
         this.phone = phone;
     }
 
+    public List<Vehicle> getVehiclesByPrice(BigDecimal min, BigDecimal max){
 
+    }
 
 
 }
